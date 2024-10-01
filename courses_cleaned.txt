@@ -1,0 +1,334 @@
+﻿
+CAP 2750 Data Analytics for the Internet of Things (3). Concepts/applications of Data Analytics for loT. Data science, machine learning, and artificial intelligence at the edge. Inference, sensor fusion, bandwidth, transfer learning, and generative models.
+
+CAP 2752 Fundamentals of Data Science (3). This course will teach data science fundamentals to undergraduate non-CS majors. The focus will be on real world applications and use of associated analysis, Visualization tools, Python programming. Prerequisite: None for B.S. or B.A. standing or permission of the instructor. 
+
+CAP 4052 Introduction to Game Design & Development (3). Introduction to game design and development concepts such as iterative design, prototyping, playtesting, game structure, game rules and mechanics, game theory, game system dynamics, and game balance. Prerequisite: (STA 2023 or STA 3033) and COP 3530. is_elective=True
+
+CAP 4104 Human-Computer Interaction (3). HCI foundations, user-centered interaction design, prototyping and programming interactive systems, qualitative and quantitative evaluation techniques, designing multimodal interfaces. Prerequisite: COP3337. is_elective=True
+
+CAP 4453 Introduction to Robot Vision (3). Perspective and orthographic projections; the processing of edges, regions, motion, shading, texture, object detection, recognition, and machine learning. Prerequisites: COP 3530 and MAC 2312. is_elective=True
+
+CAP 4506 Introduction to Game Theory (3). Introduction to all major topics of game theory, including game representations, solution concepts, algorithms & complexity, repeated games, learning, auctions, voting, applications to many disciplines. Prerequisites: MAC 2312 or Permission of the Instructor. is_elective=True
+
+CAP 4612 Introduction to Machine Learning (3). Topics will include concepts, principles, and approaches of machine learning, including classification, clustering, structured models and recommendation system. Prerequisites: COP 3530 and STA 3033. is_elective=True
+
+CAP 4612C Practical Machine Learning (3). Practical introduction to machine learning. Tools for Python, Supervised/Unsupervised Learning, and Best Practices. Case studies and practical applications will be discussed. Not for CS majors. 
+
+CAP 4630 Artificial Intelligence (3). Introduction to all major topics in artificial intelligence, including search, logic, optimization, constraint satisfaction, planning, probabilistic reasoning, multiagent systems, machine learning. Prerequisite: COP 3530 is_elective=True
+
+CAP 4641 Natural Language Processing (3). The concepts and principles of computer processing of natural language, including linguistic phenomena, formal methods, and applications. Prerequisite: COP 3530. is_elective=True
+
+CAP 4710 Principles of Computer Graphics (3). A first course in algorithms/techniques for image generation devices, geometric transformations/matrices, algorithms for hidden surfaces, ray tracing, advanced rendering. Programming with standard graphics interface. Prerequisites: COP 3337 and MAC 2312. This course will have additional fees. is_elective=True
+
+CAP 4770 Introduction to Data Mining (3). Data mining applications, data preparation, data reduction and various data mining techniques such as association, clustering, classification, anomaly detection. Prerequisite: COP 3530. Corequisite: COP 4710. is_elective=True
+
+CAP 4783 Management of Datacenter Systems (3). Topics include the concepts and principles of warehouse scale computer system and datacenter management, including workload, software/hardware infrastructure, power and cost. Prerequisite: CGS 3767. 
+
+CAP 4830 Fundamentals of Modeling & Simulations (3). Introduction to discrete-event systems, a survey of modeling tools, mathematical & statistical modeling, role of random numbers, verification & validation, and applications. Prerequisite: (STA-2023 or STA-3033) and COP-3530 is_elective=True
+
+CAP 5011 Multimedia Systems and Applications (3). Course covers organization of multimedia systems, data representation, quality of service, scheduling algorithms, synchronization and tele-communication of multimedia streams. Prerequisite: COP 4610. 
+
+CAP 5109 Advanced Human-Computer Interaction (3). Fundamental concepts of human-computer interaction, cognitive models, user-centered design principles, evaluation techniques, and emerging technologies in various contexts and domains. 
+
+CAP 5507 Game Theory (3). Game representations, solution concepts, algorithms & complexity, repeated games, learning, auctions, voting application to many disciplines. Familiarity with mathematical proofs would be helpful. 
+
+CAP 5510C Introduction to Bioinformatics (3). Introduction to bioinformatics; algorithmic, analytical and predictive tools and techniques; programming and visualization tools; machine learning; pattern discovery; analysis of sequence alignments, phylogeny data, gene expression data, and protein structure. Prerequisites: COP 3530 or equivalent and STA 3033 or equivalent.
+
+CAP 5602 Introduction to Artificial Intelligence (3). Presents the basic concepts of AI and their applications to game playing, problem solving, automated reasoning, natural language processing and expert systems. Prerequisite: COP 3530. This course will have additional fees.
+
+CAP 5610 Introduction to Machine Learning (3). Decision trees, Bayesian learning, reinforcement learning as well as theoretical concepts such as inductive bias, the PAC learning, minimum description length principle. Prerequisite: Graduate standing. 
+
+CAP 5617 Distributed Machine Learning (3). Distributed Machine Learning for CS graduate students, including algorithms, efficient learning and computing tools, and real-world applications. Prerequisites: CAP 4612 or CAP 5610 or instructor permission. 
+
+CAP 5627 Affective Intelligent Agents (3). Design and implementation methods using artificial intelligence (AI) techniques, human-computer interaction (HCI) principles, emotion theories; applications, e.g. health informatics, education, games. Prerequisites: Graduate standing or permission of the instructor. 
+
+CAP 5640 Graduate Introduction to Natural Language Processing (3). The concepts and principles of computer processing of natural language, including linguistic phenomena, formal methods, and applications. Students will conduct an independent research project. Prerequisites: M.S. or Ph.D. standing or permission of the instructor. 
+
+CAP 5701 Advanced Computer Graphics (3). Advanced topics in computer graphics: system architecture, interactive techniques, image synthesis, current research areas. Prerequisites: COP 3530 and CAP 3710 or equivalent, or by permission. This course will have additional fees.
+
+CAP 5738 Data Visualization (3). Advanced class on data visualization principles and techniques. Students propose, implement, and present a project with strong collaborative and visual components. 
+
+CAP 5768 Introduction to Data Science (3). Foundations of databases, analytics, visualization and management of data. Practical data analysis with applications. Introduction to Python, SQL, R, and other specialized data analysis toolkits. Prerequisites: STA 3164 or equivalent. 
+
+CAP 5768C Practical Data Science (3). Topics will include: data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods. Prerequisite: M.S. or Ph.D. standing or permission of the instructor. 
+
+CAP 5771 Principles of Data Mining (3). Introduction to data mining concepts, knowledge representation, inferring rules, statistical modeling, decision trees, association rules, classification rules, clustering, predictive models, and instance-based learning. Prerequisites: COP 4710 and STA 3033. 
+
+CDA 3003 Microcomputer Organization (3). A study of the hardware components of modern microcomputers and their organization. Evaluation and comparison of the various microcomputer systems. Not acceptable for credit for Computer Science Majors. Prerequisite: COP 2250. This course will have additional fees. 
+
+CDA 3102 Computer Architecture (3). Covers the levels of organization in a computer; digital logic; machine and assembly language programming, design of memory, buses, ALU, CPU; virtual memory, I/O. Prerequisite: COP 3337 and (COT 3100 or MAD 2104). is_core=3
+
+CDA 3103 Fundamentals of Computer Systems (3). Overview of computer systems organization. Data representation. Machine and assembly language programming. Prerequisites: COP 2210 or equivalent. This course will have additional fees. 
+
+CDA 4101 Structured Computer Organization (3). Covers the levels of organization in a computer: Design of memory, buses, ALU, CPU; design of microprogram. Covers virtual memory, I/O, multiple processes, CISC, RISC and parallel architectures. Prerequisites: CDA 3103, COP 3337 and (MAD 2104 or COT 3100). This course will have additional fees.
+
+CDA 4400 Computer Hardware Analysis (3). The study of hardware functions of a basic computer. Topics include logic elements, arithmetic logic units, control units, memory devices, organization and I/O devices. Prerequisite: CDA 4101. 
+
+CDA 4625 Introduction to Mobile Robotics (3). A first course on the theoretical and practical aspects of mobile robotics. Topics include locomotion, kinematics, sensing and perception, localization and mapping, planning and navigation. Prerequisites: COP 3530 and STA 3033. is_elective=True
+
+CDA 5655 Virtualized Systems (3). Topics include the concepts and principles of virtualization and the mechanisms and techniques of building virtualized systems, from individual virtual machines to virtualized networked infrastructure. Prerequisites: COP 4610 or permission of the instructor. 
+
+CEN 3721 Introduction to Human-Computer Interaction (3). Fundamental concepts of human computer interaction, cognitive models, user-centered design principles and evaluation, emerging technologies. Not acceptable for credit for Computer Science majors. Prerequisites: (COP 2210 or COP 2250 or equivalent) and only IT:BA, IT:BS, and CYBER:BS majors. 
+
+CEN 4010 Software Engineering I (3). Legal, ethical, social impacts of computer technology on society, governance, quality of life: intellectual property, privacy, security, professionalism, social identity in the U.S. and globally. Prerequisites: CGS 3095 and COP 3337. This course will have additional fees. is_core=3
+
+CEN 4012 Software Design and Development Project (3). Students design, implement, document, and test software systems working in faculty supervised project teams and utilizing knowledge obtained in previous courses. Required for Software Design and Development track. Prerequisite: CEN 4010. This course will have additional fees. 
+
+CEN 4021 Software Engineering II (3). Issues underlying the successful development of large scale software projects: Software Architectures; Software Planning and Management; Team Structures; Cost Estimation. Prerequisite: CEN 4010. This course will have additional fees. is_elective=True
+
+CEN 4072 Fundamentals of Software Testing (3). Fundamentals of software testing. Topics include: test plan creation, test case generation, program inspections, specification-based and implementation-based testing, GUI testing, and testing tools. Prerequisite: COP 3530. is_elective=True
+
+CEN 4083 Introduction to Cloud Computing (3). Topics include the concepts and principles of cloud computing and the techniques of using cloud systems and developing cloud applications. Prerequisites: CNT4713 and (CDA 3102 or CDA4101) or permission of the instructor is_elective=True
+
+CEN 5011 Advanced Software Engineering (3). This course deals with the design of large scale computer programs. Included are topics dealing with planning design, implementation, validation, metrics, and the management of such software projects. Prerequisite: CEN 4010. This course will have additional fees. 
+
+CEN 5064 Software Design (3). Study of object-oriented analysis and design of software systems based on the standard design language UML; case studies. Prerequisite: CEN 5011. 
+
+CEN 5076 Software Testing (3). Tools and techniques to validate software process artifacts: model validation, software metrics, implementation-based testing, specification-based testing, integration and systems testing. Prerequisites: CEN 4010 or CEN 5011. 
+
+CEN 5079 Software Vulnerabilities and Security (3). Development of applications that are free from common security vulnerabilities, such as buffer overflow, SQL injection, and cross-site scripting attacks. Emphasis is on distributed web applications. Prerequisite: Graduate standing. 
+
+CEN 5082 Grid Enablement of Scientific Applications (3). Fundamental principles and applications of high performance computing and parallel programming using OpenMP, MPI, Globus Toolkit, Web Services, and Grid Services. Prerequisites: Graduate standing or permission of the instructor. 
+
+CEN 5087 Software and Data Modeling (3). Essential software and data modeling methods and techniques such as UML, XML, and ER. Prerequisite: Graduate standing. 
+
+CEN 5120 Expert Systems (3). Introduction to expert systems, knowledge representation techniques and construction of expert systems. A project such as the implementation of an expert system in a high level AI language is required. Prerequisite: COP 3530 or permission of the instructor. This course will have additional fees. 
+
+CGS 1540 Introduction to Databases for All (3). Introduction to database concepts including query languages, data organization and modeling, architecture, and security. Emphasis on relational databases with SQL. Not acceptable for CS majors.
+
+CGS 1920 Introduction to the Field of Computing (1). Overview of the computing field to students, research programs and career options. is_core=0
+
+CGS 2060 Introduction to Microcomputers (3). A hands-on study of microcomputer software packages for applications such as operating system, word processing, spreadsheets, and database management. For students without a technical background. Not acceptable for credit for Computer Science majors. 
+
+CGS 2100 Intro to Microcomputer Applications for Business (3). A hands-on study of spreadsheet and database management packages for business students without a technical background. Not acceptable for credit for Computer Science majors. 
+
+CGS 2260 IT Fundamentals (3). This course is designed to prepare students with the required knowledge to design, assemble and install the hardware and software needs of an organization. Not acceptable for KFSCIS majors. 
+
+CGS 2518 Computer Data Analysis (3). A hands-on study of how to use a modern spreadsheet program to analyze data, including how to perform queries, summarize data, and solve equations. For non-technical students. Not acceptable for CS students. 
+
+CGS 3095 Technology in the Global Arena – GL (3). Legal, ethical, social impacts of computer technology on society, governance, quality of life: intellectual property, privacy, security, professionalism, social identity in the U.S. and globally. Prerequisites: (COP 2250 or COP 2210) and (ENC 3213 or ENC 3249). is_core=2
+
+CGS 3416 Web-based Programming (3). A programming course in Java with emphasis on web-based applications: Applets; Components; Servlets; Java Beans. Not acceptable for credit for Computer Science majors. Prerequisites: COP 2250 and MAD 1100. This course will have additional fees. 
+
+CGS 3559 Using the Internet (1). Internet history and importance. What is available on the Net. Tools such as email, listserves, telnet, ftp, Archie, Veronica, Gopher, netfind, the World Wide Web, Wais, and Mosaic. Nontechnical. 
+
+CGS 3767 Computer Operating Systems (3). Introduction to fundamental concepts of operating systems and their implementation in UNIX and Windows. Prerequisites: COP 2250 or COP 2210. This course will have additional fees. 
+
+CGS 4285 Applied Computer Network (3). Principles of computer network design, operation and management. Network protocols. Network configuration. Network security. Not acceptable for credit for Computer Science majors. Prerequisite: CGS 3767. This course will have additional fees. 
+
+CGS 4854 Website Construction and Management (3). The fundamentals of creating and maintaining a website. Installation and maintenance of a web-server. Techniques for building multimedia interactive web-pages. Not acceptable for credit for Computer Science majors. Prerequisites: CGS 3767 and (COP 3804 or COP 3337). This course will have additional fees. 
+
+CGS 5166 Introduction to Bioinformatics Tools (2). Introduction to bioinformatics; analytical and predictive tools; practical use of tools for sequence alignments, phylogeny, visualizations, patterns discovery, gene expression analysis, and protein structure. Prerequisite: PCB 6025 or equivalent. 
+
+CIS 1940 Internship for Teaching Computational Thinking in K-12 (0). Internship for teaching computational thinking to students in K-12, following established curriculum such as Google CS First, Code.org, and MIT Media Lab's Scratch. May be repeated. 
+
+CIS 3900 Independent Study (1-5). Individual conferences, assigned readings, and reports on independent investigations. 
+
+CIS 3930 Special Topics (1-5). A course designed to give groups of students an opportunity to pursue special studies not otherwise offered. 
+
+CIS 3950 Capstone I (1). Students learn how to perform efficiently in Agile/Scrum teams of up to 5 members and learn how to design and implement solutions to problems as a team. Prerequisite: (COP 3337 or COP 3804) and Junior Standing. is_core=3
+
+CIS 4203 Principles and Practices of Digital Forensics Science (3). This course introduces the principles of digital forensic investigations and best practices involved in the use of software and hardware tools for preserving and analyzing a crime scene. Prerequisite: MAC XXXX and COP XXXX (Passed at least one college level math course and one basic college level programming course. Corequisite: COP 2XXX or EEL 2880 (must have either passed/ enrolled in a 2000 college level programming course). is_elective=True
+
+CIS 4365 Enterprise Cybersecurity Policies and Practices (3). Policies and practices for information assurance, incident response, disaster recovery, cost assessment, vulnerability assessment, vulnerability testing, and risk mitigation strategies. Prerequisite: CNT 4403 or EEL 4806 
+
+CIS 4431 IT Automation (3). IT automation: mgmt models, auditing, assets, change mgmt, network monitoring, OS imaging, patch mgmt, help desk, remote control, user state mgmt, end-point security, backup, disaster recovery. Prerequisite: CGS 3767. Corequisite: CGS 4285 or permission of the instructor.
+
+CIS 4731 Fundamentals of Blockchain Technologies (3). Introduction to blockchain key concepts such as proof of-work, mining, distributed consensus, and its applications including cryptocurrencies, smart contracts, and supply chain monitoring. Prerequisite: COP 3530 CIS 4905 Independent Study (1-20). Individual conferences, assigned readings, and reports on independent investigations. is_elective=True
+
+CIS 4911 Senior Project (3). Students work on faculty supervised projects in teams of up to 5 members to design and implement solutions to problems utilizing knowledge obtained across the spectrum of Computer Science courses. Prerequisites: CEN 4010 and Permission of the Senior Project Coordinator. 
+
+CIS 4912 Research Experience for Undergraduate Students (0-9). Participation in ongoing research in the research centers of the school. 
+
+CIS 4930 Special Topics (1-3). A course designed to give groups of students an opportunity to pursue special studies not otherwise offered. 
+
+CIS 4951 Capstone II (2). Students work on faculty supervised projects in teams of up to 5 members to design and implement solutions to problems utilizing knowledge obtained across the spectrum of Computer Science courses. Prerequisite: CIS 3950 and Senior Standing. is_core=4
+
+CIS 5027 Computer Systems Fundamentals (3). Fundamentals concepts of IT Systems: operating systems, networking, distributed systems, platform technologies, web services and human-computer interaction. Covers design principles, algorithms and implementation techniques. Prerequisite: Graduate standing. 
+
+CIS 5208 Social, Economic, and Policy Aspects of Cybersecurity (3). The broader human context of cybersecurity, from the perspective of society, economics, and policy. Prerequisite: Graduate standing.  
+
+CIS 5346 Storage Systems (3). Introduction to storage systems, storage architecture, system devices, components, storage trends and applications, performance, RAID, MEMS and portable storage, file systems, OS storage management. Prerequisite: Graduate standing. 
+
+CIS 5370 Principles of Cybersecurity (3). Cybersecurity algorithms, techniques. Mathematical foundations. Symmetric and public key encryption. Authentication, key infrastructure, certificates. Covert channels. Access control. Vulnerabilities. Prerequisite: Graduate standing. 
+
+CIS 5372 Fundamentals of Computer Security (3). Information assurance algorithms and techniques. Security vulnerabilities. Symmetric and public key encryption. Authentication and Kerberos. Key infrastructure and certificate. Mathematical foundations. Prerequisite: Graduate standing. 
+
+CIS 5373 Systems Security (3). Risk, Trust, and Threat models; Types of Attacks; Safe Programming Techniques; Operating System Mechanisms, Virtual Machine Systems; Hardware Security Enforces; Application Security; Personal Security. Prerequisite: CIS 5372.  
+
+CIS 5374 Information Security and Privacy (3). Information Security Planning, Planning for Contingencies, Policy, Security Program, Security Management Models, Database Security, Privacy, Information Security Analysis, Protection Mechanism. Prerequisite: CIS 5372.
+
+CIS 5432 Advanced IT Automation (3). Advanced topics in system/network management including monitoring, help desk, antivirus, anti-malware, backup, disaster recovery, discovery, audit, remote control, automated response, policies, and reports. Prerequisites: CIS 4431 or permission of the instructor. 
+
+CIS 5900 Independent Study (1-10). Individual conferences, assigned readings, and reports on independent investigations. 
+
+CIS 5910 Project Research (1-6). Advanced undergraduate or master’s level research for particular projects. Repeatable. Prerequisite: Permission of Department. 
+
+CIS 5915 Research Experience for Graduate Students (0-9). Participation in ongoing research in the research centers of the school.
+
+CIS 5931 Special Topics (1-3). A course designed to give groups of students an opportunity to pursue special studies not otherwise offered. 
+
+CNT 4182 Mobile and loT Cybersecurity Policies and Practices (3). Emerging topics in policies and practices for mobile and loT devices. Skills include identifying and assessing values and threats, and mitigating risks to loT and mobile assets. Prerequisites: CNT 4403 or EEL 4806 
+
+CNT 4403 Computing and Network Security (3). Fundamental concepts and principles of computing and network security, symmetric and asymmetric cryptography, hash functions, authentication, firewalls and intrusion detection, and operational issues. Prerequisites: (COP3804 or COP3337 or COP2270) and CGS3767 Corequisite: CGS4285.  
+
+CNT 4406 Network Security and Cryptography (3). Symmetric and public key cryptography, IPSec, SSL, password management, firewalls, intrusion detection, wireless security, anonymizers, spam, phishing, malware and network attacks. Prerequisites: COP 4338 or CNT 4713. 
+
+CNT 4504 Advanced Network Management (3). Advanced principles of modern internetworking network design and implementation. Hands on experience with routers and switches and core Internet support protocols. Prerequisite: CNT 4513. 
+
+CNT 4513 Data Communications (3). Study Computer network models and protocol layers. Topics include: error handling, frames, broadcast networks, channel allocation; network routing algorithms, internetworking, TCP/IP, ATM protocols. Prerequisites: COP 3804 or COP 3337 and CGS 4285. 
+
+CNT 4603 Windows System Administration (3). An examination of operating systems and applications installation, configuration, and maintenance, including client-server services, server administration and management, and user/group management. Prerequisite: CGS 3767. Information Security Planning, Planning for Contingencies, Policy, Security Program, Security Management Models, Database Security, Privacy, Information Security Analysis, Protection Mechanism. Prerequisite: CIS 5372. 
+
+CNT 4713 Net-centric Computing (3). This course covers networking fundamentals, network security, network applications, mobile and wireless computing. The course focuses on network programming, including sockets and web programming concepts. Prerequisite: COP 4338. is_core=4
+
+COP 1000 Introduction to Computer Programming (3). Uses graphics and animation in a media programming environment to teach problem solving and programming concepts to students with no prior experience. May not be taken after COP 2210 or COP 2250. 
+
+COP 2210 Computer Programming I (4). A first course in computer science that uses a structured programming language to study programming and problem solving on the computer. Includes the design, construction and analysis of programs. Student participation in a closed instructional lab is required. This course will have additional fees. Prerequisites: MAC 1140 or MAC 1147 or MAC 2233 or MAC 2311, or Advisor's Permissions COP 2210L Lab for Computer Programming I (0). Lab component for Computer Programming I Lecture. Corequisite: COP 2210. is_core=1
+
+COP 2250 Programming in Java (3). A first course in programming for IT majors. Syntax and semantics of Java. Classes and Objects. Object oriented program development. Not acceptable for credit for Computer Science majors. This course will have additional fees. 
+
+COP 2270 Secure C Programming For Engineers (3). Secure programming for engineering and science students using ANSI C. Developing algorithms and code for problems in engineering and science, using secure techniques. Not acceptable for CS majors. 
+
+COP 3175 Programming in Visual Basic (3). An introduction to Visual Basic programming with emphasis on Business Applications. Not acceptable for credit for Computer Science majors. Prerequisites: CGS 2100 or CGS 2060. This course will have additional fees. 
+
+COP 3337 Computer Programming II (3). An intermediate level course in Object Oriented programming. Topics include primitive types, control structures, strings arrays, objects and classes, data abstraction inheritance polymorphism and an introduction to data structures. Prerequisites: COP 2210 or EEL 2880. This course will have additional fees. is_core=2
+
+COP 3353 Introduction to Using Unix/Linux Systems (3). Techniques of Unix/Linux systems. Basic use, file system structure, process system structure, unix tools (regular expressions, grep, find), simple and complex shell scripts, Xwindows. Not acceptable for credit for Computer Science majors. Prerequisites: COP 2210 or COP 2250 or equivalent. This course will have additional fees. 
+
+COP 3465 Data Structures for IT (3). Basic concepts of running time of a program, data structures including lists, stacks, queues, binary search trees, and hash tables, and internal sorting. Not acceptable for credit for CS majors. Prerequisite: Programming II (IT). This course will have additional fees. 
+
+COP 3530 Data Structures (3). Basic concepts of data organization, running time of a program, abstract types, data structures including linked lists, nary trees, sets and graphs, internal sorting. Prerequisites: COP 3337 and (MAD 2104 or COT 3100). This course will have additional fees. is_core=3
+
+COP 3804 Intermediate Java Programming (3). A second course in Java programming. Continues Programming in Java by discussing object-oriented programming in a more detail, with larger programming projects and emphasis on inheritance. Not acceptable for credit for CS majors. Prerequisites: COP 2250 or COP 2210. This course will have additional fees. 
+
+COP 3832 Advanced Web Server Communication (3). Maintain a web server on the Internet. Learn HTML, PERL, Javascript. Configure the Apache web server. Write interactive server scripts. Discuss Web security & ASP. Use Java applets and ActiveX controls. Prerequisites: CGS 3559, COP 2210 or equivalents. This course will have additional fees. 
+
+COP 3835 Designing Web Pages (3). Designing basic pages for display on the World Wide Web. Fundamental design elements and contemporary design tools are discussed. Computer literacy is expected. 
+
+COP 3949 Cooperative Education in Computing (1-3). Cooperative Internship for Computer Science and Information Technology majors. May not be used for Computer Science or Information Technology elective credit. Prerequisite: Permission of the instructor. 
+
+COP 4005 Windows Programming for IT Majors (3). Application development techniques in Windows: Classes, Objects, Controls, Forms and Dialogs, Database, and Multitier Application Architecture. Students cannot receive credit for both COP 4005 and COP 4226. Prerequisites: CEN 3721 and COP 3804 or COP 3337. Corequisite: COP 4703. This course will have additional fees. 
+
+COP 4009 Windows Components Technology (3). Component-Based and Distributed Programming Techniques: C#, Common Type System, Windows and Web Forms, Multithreading, Distributed Objects. Prerequisites: COP 4226 or COP 4005. This course will have additional fees. 
+
+COP 4226 Advanced Windows Programming (3). Document and Dialog Based App, Message Passing, Printing, Drawing, GUI Design, Common Controls, Multithreaded Programming, Serialization, Database Connectivity, Runtime Libraries, Memory Management. Prerequisite: COP 3530. This course will have additional fees. is_elective=True
+
+COP 4338 Systems Programming (3). Programming in C and advanced programming in Unix environments, including multiprocessing and multithreading. Corequisite: COP 3530. This course will have additional fees. is_core=3
+
+COP 4516 Competitive Programming and Problem Solving (3). Problem solving for programming competitions. Algorithms, analysis, programming, debugging, group collaboration. Participation in team practices and rigorous individual preparation. Prerequisite: COP 3530. 
+
+COP 4520 Introduction to Parallel Computing (3). This course introduces the field of parallel computing. The students will be taught how to design efficient parallel programs and how to use parallel computing techniques to solve scientific problems. Prerequisites: COP 3530 and (CDA 3102 or CDA 4101 or EEL 4709C) is_elective=True
+
+COP 4534 Algorithm Techniques (3). Basic algorithm design, including greedy algorithms, divide-and-conquer, dynamic programming, randomization, and backtracking. Graph, string, numerical, geometric, and optimization algorithms. Prerequisite: COP 3530. is_elective=True
+
+COP 4555 Principles of Programming Languages (3). A comparative study of several programming languages and paradigms. Emphasis is given to design, evaluation and implementation. Programs are written in a few of the languages. Prerequisite: COP 3530. This course will have additional fees. is_core=4
+
+COP 4604 Advanced Unix Programming (3). Unix overview: files and directories, shell scripting and systems programming. Unix tools; Internals: file systems, process structure. Using the system call interface. Interprocess communication. Prerequisite: COP 4338. Corequisite: COP 4610. This course will have additional fees. is_elective=True
+
+COP 4610 Operating Systems Principles (3). Operating systems design principles and implementation techniques. Address spaces, system call interface, process/threads, interprocess communication, deadlock, scheduling, memory, virtual memory, I/O, file systems. Prerequisites: COP 4338 and (CDA 3102 or CDA 4101). This course will have additional fees. is_core=4
+
+COP 4655 Mobile Application Development (3). Design and development of mobile applications. Introduction to the mobile application frameworks, including user interface, sensors, event handling, data management and network interface. Prerequisites: (CEN3721 and COP4814) or (CAP4101 and CEN4010). is_elective=True
+
+COP 4703 Information Storage and Retrieval Concepts (3). Introduction to information management and retrieval concepts. The design and implementation of a relational database using a commercial DBMS. Online information retrieval and manipulation. Not acceptable for credit for Computer Science majors. Prerequisites: COP 3804 or COP 3337. This course will have additional fees. 
+
+COP 4710 Database Management (3). Logical aspects of databases including Relational, Entity-Relationship, and Object-Oriented data models, database design, SQL, relational algebra, tuple calculus, domain calculus, and physical database organization. Prerequisite: COP 3337. Corequisite: COP 3530. This course will have additional fees. is_elective=True
+
+COP 4751 Advanced Database Management (3). Design & management of enterprise systems; query optimization, transaction processing; concurrency techniques; web queries; XML interchanges; data warehousing, datamining; OLAP; NOSQL and big data. Prerequisite: COP 4703 or COP 4710 is_elective=True
+
+COP 4813 Web Application Programming (3). Creating Web applications with user interfaces, databases, state management, user authentication, error handling, and web services. Prerequisites: CGS 4854. 
+
+COP 4814 Component-Based Software Development (3). Integrating, exchanging, and transforming XML data, building software from components, understanding security concepts, basic Web services. Prerequisites: COP 4703 and CGS 4854. 
+
+COP 4906 Research Experiences in Computer Science (1-3). Participation in ongoing research in the research centers of the school. Prerequisite: Permission of the instructor. 
+
+COP 4949 Cooperative Education in Computing 2 (1 3). Cooperative Internship for Computer Science and Information Technology majors. May not be used for Computer Science or Information Technology elective credit. Prerequisite: Permission of the instructor. 
+
+COP 5614 Operating Systems (3). Operating systems design principles, algorithms and implementation techniques: process and memory management, disk and I/O systems, communications and security. 
+
+COP 5621 Compiler Construction (3). Basic techniques of compilation; scanning; grammars and LL and LR parsing, code generation; symbol table management; optimization. Prerequisites: MAD 3512 and CEN 4010. This course will have additional fees. 
+
+COP 5725 Principles of Database Management Systems (3). Overview of Database Systems, Relational Model, Relational Algebra and Relational Calculus; SQL; Database Applications; Storage and Indexing; Query Evaluation; Transaction Management. Selected database topics will also be discussed. 
+
+COP 5949 Cooperative Education in Computer Science (1-3). One semester of full-time work, or equivalent, in an outside organization, limited to students admitted to the CO-OP program. A written report and supervision evaluation is required of each student. Prerequisite: Graduate Standing. 
+
+COT 3100 Discrete Structures (3). Align mathematical and computational concepts by applying computing to propositional logic, sets, functions relations, induction, recursion, combinatorics, Boolean algebra, graph and trees. Prerequisites: MAC XXXX and COP XXXX Corequisites: (COP 2210 or COP 2250 or EEL 2880) is_core=1
+
+COT 3510 Applied Linear Structures for Computing (3). This course is designed to prepare computer science/IT students with the applied knowledge of linear structures necessary for computing, data analytics, and machine learning. Prerequisite: MAC-XXXX and COP XXXX Corequisite: COT 3100 or MAD 2104 is_elective=True
+
+COT 3541 Logic for Computer Science (3). An introduction to the logical concepts and computational aspects of propositional and predicate logic, as well as to concepts and techniques underlying logic programming, in particular, the computer language Prolog. Prerequisites: COP 3337 and (MAD 2104 or COT 3100). This course will have additional fees. is_elective=True
+
+COT 4431 Applied Parallel Computing (3). This course teaches advance undergraduate and graduate students to solve problems from scientific, social and financial domains using parallel computing principles and techniques. Prerequisites: (COP 3530 and (CDA 3102 or CDA 4101 or EEL 4709)) or permission of the instructor is_elective=True
+
+COT 4450 Optimization Methods for Computing: Theory and Applications (3). Optimization for CS students, including introduction to optimization algorithms, applications in CS, efficient computing, and real-world problems. Basic calculus and programming skill are needed. Prerequisite: MAC 2311 Calculus I or equivalent (instructor's permission is acceptable) Corequisite: MAS 3105 or COT3510 or equivalent (instructor's permission is acceptable) 
+
+COT 4521 Introduction to Computational Geometry (3). Study of efficient algorithms to solve geometric problems. Topics covered include convex hulls, Voronoi diagrams, Delaunay triangulations, arrangements, search and intersection, and motion planning. Prerequisite: COP 3530. is_elective=True
+
+COT 4601 Fundamentals of Quantum Computing (3). This course introduces basic concepts in quantum theory, applications of quantum computing, and a review of quantum algorithms. Prerequisites: (COP 3337 or COP 3804) and (COT 3100 or MAD 1100 or MAD 2104) is_elective=True
+
+COT 5310 Theory of Computation I (3). Abstract models of computation; including finite automata, regular expressions, context-free grammars, pushdown automata, Turing machines. Decidability and undecidability of computational problems. Prerequisite: MAD 3512. 
+
+COT 5407 Introduction to Algorithms (3). Design of efficient data structures and algorithms; analysis of algorithms and asymptotic time complexity; graph, string, and geometric algorithms; NP-completeness. 
+
+COT 5428 Formal Foundations for Cybersecurity (3). Formal models and methods for achieving rigorous security guarantees. Cryptographic indistinguishability properties, reduction proofs. Formal analyses of security APIs. Secure information flow. Prerequisite: CIS 5370.
+
+COT 5432 Applied Parallel Computing (3). This course teaches advance undergrad and graduate students to solve problems from scientific, social and financial domains using parallel computing principles and techniques. Prerequisites: (COP 3530 and (CDA 3102 or CDA 4101 or EEL 4709)) or permission of the instructor 
+
+COT 5443 Optimization Methods for Computing: Theory and Applications (3). Optimization for CS graduate students, including algorithms, applications to widely used methods including efficient computing, machine learning and data science, and real-world problems. Basic calculus and programming skills are needed. Prerequisites: MAC 2311 Calculus I or equivalent; MAS 3105 Linear Algebra or equivalent (instructor's permission is acceptable) 
+
+COT 5520 Computational Geometry (3). Design and analysis of efficient algorithms to solve geometric problems: geometric searching, convex hull, proximity problem, Voronoi diagram, spanning tree, triangulation, graph drawing applications. Prerequisite: COP 3530 (or equivalents). 
+
+COT 5600 Quantum Algorithms (3). Introduction to quantum theory and a survey of standard and advanced quantum algorithms; implementation of algorithms on a simulated or real quantum system. Prerequisite: COT 5407 or COT 6405 or permission by the instructor 
+
+CTS 1500 Emerging Topics in Digital Life (3). Explore ever-changing boundaries between public and private digital lives, and the cultural and societal impacts of data collection, misinformation, media bias, cyber threats, and emerging technologies. 
+
+CTS 2327 Microsoft Windows NT Administration (3). A two-part course covering introduction to Networking and the Windows NT Operating System. This course will cover material that is covered on the Microsoft Certified systems Engineer (MCSE) exam. Prerequisites: CGS 2060, or CGS 2100, or equivalent. This course will have additional fees. 
+
+CTS 4348 Unix System Administration (3). Techniques of Unix system administration: system configuration and management; user setup, management and accounting; software installation and configuration; network setup, configuration and management. Prerequisite: CGS 3767. 
+
+CTS 4408 Database Administration (3). Client-server architecture; planning, installation, server configuration; user management; performance optimization; backup, restoration; security configuration; replication management; administrative tasks. Prerequisites: COP 4703 or COP 4710. is_elective=True
+
+CTS 4743 Enterprise IT Troubleshooting (3). This course covers advanced topics in troubleshooting from the perspective of an infrastructure engineer focusing on diagnosing & resolving issues found in common application architectures patterns. Prerequisite: COP 4703 and (CNT 4403 or EEL 4806) 
+
+IDC 1000 Computer Science for Everyone (3). Introduction to the breadth and excitement of computing, including its social context, computing principles, and relevance to all disciplines. 
+
+IDC 2002 Artificial Intelligence for All (3). High-level conceptual survey of artificial intelligence for non-CS undergraduates, including techniques, applications, ethics, and philosophical issues. No high-level math or programming required. 
+
+IDC 2020 Introduction to Cryptocurrencies (3). High level conceptual survey of crypto-currencies and other blockchain technologies for non-CS undergraduates, including techniques, applications, ethics and philosophical issues. Prerequisite: MAC-XXXX or MAD XXXX or MGF-XXXX (any math course at any level) 
+
+IDC 4010C Computer Science Education for Elementary School Children (4). Provide teachers with the knowledge of introductory Computer Science topics, as well as the pedagogy on how to teach the topics. Computer Science topics include computational thinking, logic, visual programming, and social issues related to computer technologies including Internet safety. 
+
+IDC 4011C Computer Science Education for Middle School Children (4). Provide teachers with the knowledge of intermediate-level Computer Science topics, as well as the pedagogy on how to teach the topics. Computer Science topics include computational thinking, logic, visual programming, computer hardware and networking, and social issues related to computer technologies including Internet safety. 
+
+IDC 4012C Computer Science Education for High School Children (4). Provide teachers with the knowledge of advanced Computer Science topics, as well as the pedagogy on how to teach the topics. Computer Science topics include how the internet works, big data, logic, programming languages such as Javascript (via an app-creating visual tool) and researching technology innovations. 
+
+IDC 5007 Concepts of Artificial Intelligence (3). High level conceptual survey of artificial intelligence for non-CS graduate students, including techniques, applications, ethics, and philosophical issues. No high-level math or programming required. 
+
+IDS 2916 Vertically Integrated Projects A (1). Students work in large projects with students from different majors working in real-world projects with university and external mentors (may be taken twice). (Sophomore status). Prerequisite: Permission of the instructor.
+
+IDS 3917 Vertically Integrated Projects B (3). Students work in large projects with students from different majors working in real-world projects with university and external mentors. Prerequisite: Permission of the instructor.
+
+IDS 4918 Vertically Integrated Projects C (3). Students work in large projects with students from different majors working in real-world projects with university and external mentors (may be taken twice) (Senior status) Prerequisite: Instructor Consent.
+
+TCN 5010 Telecommunications Technology and Applications (3). An in-depth introduction to voice and data networks, signaling and modulation, multiplexing, frequency band and propagation characteristics, special analysis of signals, and traffic analysis. Prerequisite: Permission of the instructor.  
+
+TCN 5030 Computer Communications and Networking Technologies (3). Teaches the dynamics related to computer communications, how computers are grouped together to form networks, various networking implementation strategies, and current technologies. Prerequisite: Permission of the instructor. 
+
+TCN 5060 Telecommunications Software and Methodologies (3). A high-level look into network architectures and distributed applications, client-server models, network software platforms and advanced techniques for programs specifications through implementation. Prerequisites: TCN 5030 or permission of the instructor. 
+
+TCN 5080 Secure Telecommunications Transactions (3). Telecom and information security issues such as: digital signatures, cryptography as applied to telecom transactions, network policing, nested authentication, and improving system trust. Prerequisites: TCN 5030 or permission of the instructor. 
+
+TCN 5150 Multimedia Computer Communications (3). Covers multimedia computer communications technologies including, multimedia over networks, videoconferencing, telephone, compression algorithms and techniques for transmitting data efficiently. Prerequisites: TCN 6210 or permission of the instructor. 
+
+TCN 5421 Theory of Network Computation (3). Fundamental mathematical models of general and network computation: finite state automata, regular languages, decidability; scholastic processes, Markov chains, queuing theory. 
+
+TCN 5440 Software Development for Telecommunication Networks (3). Focuses on the aspects, tools, and techniques of developing software applications for telecommunications Prerequisites: TCN 5030 or equivalent. 
+
+TCN 5445 Telecommunications networks. Networking Programming (3). Advanced telecommunications network programming skills including Router and Bridge Software, socket programming and protocol handler. Prerequisite: Permission from instructor. 
+
+TCN 5455 Information Theory (3). Entropy and measure of information. Proof and interpretation of Shannon's fundamental theorem for various channels, including noiseless, discrete, time-discrete and time-continuous channels. Prerequisite: Permission of the instructor.
+
+TCN 5640 Telecommunications Enterprise Planning and Strategy (3). Methodologies for re-engineering, project management, strategic planning, change management, RFPs, and life-cycle management within the telecommunications and IT arena. Prerequisite: Permission of the instructor. 
+
+TCN 5710 Cyber Sustainability (3). In-depth introduction to sustainable development and optimization of cyber systems, such as mobile networks and data centers, with an emphasis on cost, energy, water and life-cycle assessment.
