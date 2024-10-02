@@ -1,44 +1,52 @@
-from sentence_transformers import SentenceTransformer, util
 import pandas as pd
+from sentence_transformers import SentenceTransformer, util
 
-# Load the fine-tuned model
-fine_tuned_model = SentenceTransformer('./fine-tuned-model')
+def calculate_similarity(course_path, output_path):
+    # Load cleaned course and job descriptions
+    courses_df = pd.read_excel(course_path)
+    jobs_df = pd.read_excel('./Datasets/cleaned_jobs.xlsx')
 
-# Function to encode text
-courses_df = pd.read_excel('C:/Users/13054/Desktop/Re-created jobspy project/course_descriptions.xlsx')
+    # Initialize the SBERT model
+    model = SentenceTransformer('all-MiniLM-L6-v2') 
 
-# Load cleaned job descriptions
-jobs_df = pd.read_excel('C:/Users/13054/Desktop/Re-created jobspy project/cleaned_jobs.xlsx')
-def encode_text(text, model):
-    return model.encode(text)
+    # Extract the course descriptions and job descriptions
+    course_names = courses_df['Course Name'].tolist()
+    course_descriptions = courses_df['Course Description'].tolist()
 
-# Calculate embeddings for course and job descriptions using the fine-tuned model
-courses_df['fine_tuned_embedding'] = courses_df['filtered_description'].apply(lambda x: encode_text(x, fine_tuned_model))
-jobs_df['fine_tuned_embedding'] = jobs_df['cleaned_description'].apply(lambda x: encode_text(x, fine_tuned_model))
+    job_titles = jobs_df['title'].tolist()
+    job_descriptions = jobs_df['cleaned_description'].tolist()
+    job_salaries = jobs_df['mean_salary'].tolist()
 
-# Initialize a list to hold the results
-fine_tuned_matching_results = []
+    # Compute embeddings for course descriptions and job descriptions
+    course_embeddings = model.encode(course_descriptions, convert_to_tensor=True)
+    job_embeddings = model.encode(job_descriptions, convert_to_tensor=True)
 
-# Compare each course with each job using the fine-tuned model
-for _, course in courses_df.iterrows():
-    course_embedding = course['fine_tuned_embedding']
-    for _, job in jobs_df.iterrows():
-        job_embedding = job['fine_tuned_embedding']
-        similarity = util.pytorch_cos_sim(course_embedding, job_embedding).item()
-        fine_tuned_matching_results.append({
-            'Course Name': course['course_name'],
-            'Job Title': job['title'],
-            'Similarity': similarity,
-            'Salary': job['mean_salary'],
-            'Is Core': course['is_core']
-        })
+    # Compute cosine similarities between each course and job description
+    similarity_matrix = util.cos_sim(course_embeddings, job_embeddings)
 
-# Convert results to DataFrame
-fine_tuned_matches_df = pd.DataFrame(fine_tuned_matching_results)
-print(fine_tuned_matches_df)
+    # Create a list to store the results in the desired format
+    results = []
 
-# Export the results to a CSV file
-fine_tuned_matches_path = 'C:/Users/13054/Desktop/Re-created jobspy project/Datasets/fine_tuned_matching.csv'
-fine_tuned_matches_df.to_csv(fine_tuned_matches_path, index=False)
+    # Loop through each course and job to create a flat structure
+    for i, course_name in enumerate(course_names):
+        for j, job_title in enumerate(job_titles):
+            similarity_score = similarity_matrix[i][j].item()  # Get similarity score
+            job_salary = job_salaries[j]  # Get the salary for the job
+            results.append([course_name, job_title, similarity_score, job_salary])
 
-print("Fine-tuned matching results saved to", fine_tuned_matches_path)
+    # Convert results to a DataFrame
+    results_df = pd.DataFrame(results, columns=['Course Name', 'Job Title', 'Similarity', 'Job Salary'])
+
+    # Save the similarity results to an Excel file
+    results_df.to_excel(output_path, index=False)
+
+    print(f"Similarity between courses and jobs calculated and saved to '{output_path}'.")
+
+core_path = './Datasets/cleaned_core_courses.xlsx'
+core_output = './Datasets/core_course_job_similarity.xlsx'
+
+elective_path = './Datasets/cleaned_elective_courses.xlsx'
+elective_output = './Datasets/elective_course_job_similarity.xlsx'
+
+calculate_similarity(core_path, core_output)
+calculate_similarity(elective_path, elective_output)
