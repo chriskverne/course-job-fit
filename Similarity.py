@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer, util
 def calculate_similarity(course_path, output_path):
     # Load cleaned course and job descriptions
     courses_df = pd.read_excel(course_path)
-    jobs_df = pd.read_excel('./Datasets/cleaned_jobs.xlsx')
+    jobs_df = pd.read_excel('./Datasets/cleaned_tech_jobs.xlsx')
 
     # Initialize the SBERT model
     model = SentenceTransformer('all-MiniLM-L6-v2') 

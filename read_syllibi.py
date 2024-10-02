@@ -54,5 +54,5 @@ core_output_file = './Datasets/cleaned_core_courses.xlsx'
 
 elective_folder_path = './elective_courses'
 elective_output_file = './Datasets/cleaned_elective_courses.xlsx'
-process_files(core_folder_path, core_output_file)
-#process_files(elective_folder_path, elective_output_file)
+#process_files(core_folder_path, core_output_file)
+process_files(elective_folder_path, elective_output_file)

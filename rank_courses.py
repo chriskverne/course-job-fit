@@ -1,10 +1,15 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
-df = pd.read_excel('./Datasets/core_course_job_similarity.xlsx')
+df = pd.read_excel('./Datasets/elective_course_job_similarity.xlsx')
 df.reset_index()
 
-high_sim = df[df['Similarity'] > 0.60]  # df.groupby('Course Name')['Similarity'] > 0.7
-high_sim_count = high_sim.groupby('Course Name').size().sort_values()
+avg_sims = df.groupby('Course Name')['Similarity'].mean().sort_values()
+print(avg_sims)
 
-print(high_sim_count)
+high_sims_jobs = df[df['Similarity'] > 0.50].groupby('Course Name').size().sort_values()
+print(high_sims_jobs)
+
+
+#plt.figure()
+#high_sim_count.plot(kind='barh')
+#plt.show()
