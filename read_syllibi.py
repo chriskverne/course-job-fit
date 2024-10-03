@@ -27,6 +27,7 @@ def clean_course(course):
 cleaned_courses = {}
 
 def process_files(folder_path, output_path):
+    print(f'Number of files: {len(os.listdir(folder_path))}')
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         reader = PyPDF2.PdfReader(file_path)
@@ -41,7 +42,6 @@ def process_files(folder_path, output_path):
         course_name = os.path.splitext(filename)[0]  # Remove the .pdf extension
         cleaned_courses[course_name] = cleaned_course
 
-    
     df = pd.DataFrame(list(cleaned_courses.items()), columns=['Course Name', 'Course Description'])
 
     # Save the DataFrame to an Excel file
@@ -54,5 +54,10 @@ core_output_file = './Datasets/cleaned_core_courses.xlsx'
 
 elective_folder_path = './elective_courses'
 elective_output_file = './Datasets/cleaned_elective_courses.xlsx'
+
+all_folder_path = './all_courses'
+all_output_file = './Datasets/cleaned_all_courses.xlsx'
+
 #process_files(core_folder_path, core_output_file)
-process_files(elective_folder_path, elective_output_file)
+#process_files(elective_folder_path, elective_output_file)
+process_files(all_folder_path, all_output_file)
