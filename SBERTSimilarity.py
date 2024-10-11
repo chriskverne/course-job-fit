@@ -1,10 +1,10 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 
-def calculate_similarity(course_path, output_path):
+def calculate_similarity(course_path, output_path, job_path):
     # Load cleaned course and job descriptions
     courses_df = pd.read_excel(course_path)
-    jobs_df = pd.read_excel('./Datasets/cleaned_tech_jobs.xlsx')
+    jobs_df = pd.read_excel(job_path)
 
     # Initialize the SBERT model
     model = SentenceTransformer('all-MiniLM-L6-v2') 
@@ -43,14 +43,14 @@ def calculate_similarity(course_path, output_path):
     print(f"Similarity between courses and jobs calculated and saved to '{output_path}'.")
 
 core_path = './Datasets/cleaned_core_courses.xlsx'
-core_output = './Datasets/core_course_job_similarity.xlsx'
+core_output = './SBERT_similarities/core_course_job_similarity.xlsx'
 
 elective_path = './Datasets/cleaned_elective_courses.xlsx'
-elective_output = './Datasets/elective_course_job_similarity.xlsx'
+elective_output = './SBERT_similarities/elective_course_job_similarity.xlsx'
 
 all_path = './Datasets/cleaned_all_courses.xlsx'
-all_output = './Datasets/all_course_job_similarity.xlsx'
+all_output = './SBERT_similarities/all_course_job_similarity.xlsx'
 
-#calculate_similarity(core_path, core_output)
-#calculate_similarity(elective_path, elective_output)
-calculate_similarity(all_path, all_output)
+#calculate_similarity(core_path, core_output, './Datasets/cleaned_tech_jobs3.xlsx')
+#calculate_similarity(elective_path, elective_output, './Datasets/cleaned_tech_jobs3.xlsx')
+calculate_similarity(all_path, all_output, './Datasets/cleaned_tech_jobs3.xlsx')

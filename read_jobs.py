@@ -6,9 +6,6 @@ import nltk
 # Load stopwords
 stop_words = set(stopwords.words('english'))
 
-file_path = './Datasets/swe_jobs.xlsx'
-df = pd.read_excel(file_path)
-
 # Function to clean the job description text
 def clean_description(description):
     if pd.isnull(description):
@@ -28,7 +25,7 @@ def clean_description(description):
 
     return filtered_description
 
-def clean_data(df):
+def clean_data(df, output_path):
     # Convert salaries to numeric values
     df['min_amount'] = pd.to_numeric(df['min_amount'], errors='coerce')
     df['max_amount'] = pd.to_numeric(df['max_amount'], errors='coerce')
@@ -51,8 +48,9 @@ def clean_data(df):
     df['cleaned_description'] = df['description'].apply(clean_description)
 
     # Save the cleaned data to a new Excel file
-    output_path = './Datasets/cleaned_tech_jobs.xlsx'
     df.to_excel(output_path, index=False)
 
 # Clean the dataset
-clean_data(df)
+df = pd.read_excel('./Datasets/swe_jobs3.xlsx')
+output_path = './Datasets/cleaned_tech_jobs3.xlsx'
+clean_data(df, output_path)
