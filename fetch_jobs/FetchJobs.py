@@ -31,25 +31,31 @@ def scrape_jobs_from_site(path, res_wanted, job):
     jobs.to_excel(path)
 
 # Swe Jobs
-swe_path = './jobs/swe_jobs_10_10.xlsx'
+swe_path = './jobs/swe_jobs_10_16.xlsx'
 swe_res = 2000
 swe_term = "Software engineer"
-#scrape_jobs(swe_path, swe_res, swe_term)
+scrape_jobs_from_site(swe_path, swe_res, swe_term)
 
 # Data science Jobs
-ds_path = './jobs/ds_jobs_10_10.xlsx'
-ds_res = 500
+ds_path = './jobs/ds_jobs_10_16.xlsx'
+ds_res = 1000
 ds_term = "Data scientist"
 #scrape_jobs_from_site(ds_path, ds_res, ds_term)
 
-# Cyber security Jobs
-cs_path = './jobs/cs_jobs_10_10.xlsx'
-cs_res = 500
+# Cybersecurity Jobs
+cs_path = './jobs/cs_jobs_10_16.xlsx'
+cs_res = 1000
 cs_term = "Cyber Security"
 #scrape_jobs_from_site(cs_path, cs_res, cs_term)
 
-# Product managment Jobs
-pm_path = './jobs/pm_jobs_10_10.xlsx'
-pm_res = 500
+# Product management Jobs
+pm_path = './jobs/pm_jobs_10_16.xlsx'
+pm_res = 1000
 pm_term = "Technical product manager"
 #scrape_jobs_from_site(pm_path, pm_res, pm_term)
+
+# IT Jobs
+it_path = './jobs/it_jobs_10_16.xlsx'
+it_res = 1000
+it_term = "IT"
+#scrape_jobs_from_site(it_path, it_res, it_term)
