@@ -4,7 +4,6 @@ import os
 from nltk.corpus import stopwords
 import pandas as pd
 
-
 # Load stopwords for English
 stop_words = set(stopwords.words('english'))
 
