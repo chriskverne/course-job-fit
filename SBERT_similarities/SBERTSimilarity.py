@@ -42,15 +42,15 @@ def calculate_similarity(course_path, output_path, job_path):
 
     print(f"Similarity between courses and jobs calculated and saved to '{output_path}'.")
 
-core_path = './Datasets/cleaned_core_courses.xlsx'
+core_path = '../../Datasets/cleaned_core_courses.xlsx'
 core_output = './SBERT_similarities/core_course_job_similarity.xlsx'
 
-elective_path = './Datasets/cleaned_elective_courses.xlsx'
+elective_path = '../../Datasets/cleaned_elective_courses.xlsx'
 elective_output = './SBERT_similarities/elective_course_job_similarity.xlsx'
 
-all_path = './Datasets/cleaned_all_courses.xlsx'
+all_path = '../../Datasets/cleaned_all_courses.xlsx'
 all_output = './SBERT_similarities/all_course_job_similarity.xlsx'
 
 #calculate_similarity(core_path, core_output, './Datasets/cleaned_tech_jobs3.xlsx')
 #calculate_similarity(elective_path, elective_output, './Datasets/cleaned_tech_jobs3.xlsx')
-calculate_similarity(all_path, all_output, './Datasets/cleaned_tech_jobs3.xlsx')
+calculate_similarity(all_path, all_output, '../Datasets/cleaned_tech_jobs3.xlsx')

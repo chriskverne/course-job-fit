@@ -51,6 +51,6 @@ def clean_data(df, output_path):
     df.to_excel(output_path, index=False)
 
 # Clean the dataset
-df = pd.read_excel('./Datasets/swe_jobs3.xlsx')
+df = pd.read_excel('./Datasets/swe_jobs_10_08.xlsx')
 output_path = './Datasets/cleaned_tech_jobs3.xlsx'
 clean_data(df, output_path)
