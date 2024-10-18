@@ -82,6 +82,6 @@ def clean_data(df, output_path):
     df.to_excel(output_path, index=False)
 
 # Clean the dataset
-combined_df = combine_dataframes(swe_paths)
-output_path =  '../Datasets/cleaned_all_swe_jobs.xlsx'
+combined_df = combine_dataframes(pm_paths)
+output_path =  './cleanedjobs/cleaned_all_pm_jobs.xlsx'
 clean_data(combined_df, output_path)

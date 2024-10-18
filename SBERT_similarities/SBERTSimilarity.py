@@ -2,7 +2,6 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 import torch
 
-
 def get_mean_pooled_embedding(text, model, tokenizer):
     tokens = tokenizer(text, truncation=False, return_tensors='pt')['input_ids'][0]
     # Split tokens into chunks of max 512 tokens
@@ -87,20 +86,20 @@ def calculate_similarity(course_path, output_path, job_path):
     results_df = pd.DataFrame(results, columns=['Course Name', 'Job Title', 'Similarity', 'Job Salary'])
 
     # Save the similarity results to an Excel file
-    results_df.to_excel(output_path, index=False)
+    results_df.to_csv(output_path, index=False)
 
     print(f"Similarity between courses and jobs calculated and saved to '{output_path}'.")
 
 
 # Paths for datasets and outputs
 core_path = '../../Datasets/cleaned_core_courses.xlsx'
-core_output = './core_course_job_similarity.xlsx'
+core_output = './core_course_job_similarity.csv'
 
 elective_path = '../../Datasets/cleaned_elective_courses.xlsx'
-elective_output = './elective_course_job_similarity.xlsx'
+elective_output = './elective_course_job_similarity.csv'
 
 all_path = '../Datasets/cleaned_all_courses.xlsx'
-all_output = './all_course_job_similarity.xlsx'
+all_output = './all_course_job_similarity.csv'
 
 # Calculate similarity for the all courses dataset
-calculate_similarity(all_path, all_output, '../Datasets/cleaned_tech_jobs3.xlsx')
+calculate_similarity(all_path, all_output, '../Datasets/final_jobs.xlsx')

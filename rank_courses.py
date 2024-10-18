@@ -3,17 +3,17 @@ import matplotlib.pyplot as plt
 
 
 def rank_courses(similarity_path, threshold):
-    df = pd.read_excel(similarity_path)
+    df = pd.read_csv(similarity_path)
     df.reset_index()
 
     # Average similarity for each course
-    #avg_sims = df.groupby('Course Name')['Similarity'].mean().sort_values()
-    #print(avg_sims)
+    avg_sims = df.groupby('Course Name')['Similarity'].mean().sort_values()
+    print(avg_sims)
 
     # Strong match count
-    #strong_matches = df[df['Similarity'] > threshold]
-    #smc = strong_matches.groupby('Course Name').size().sort_values()
-    #print(smc)
+    strong_matches = df[df['Similarity'] > threshold]
+    smc = strong_matches.groupby('Course Name').size().sort_values()
+    print(smc)
 
     # Weighted salary
     df_salary = df.dropna(subset=['Job Salary'])  # Filter only rows with salary
@@ -27,10 +27,10 @@ def rank_courses(similarity_path, threshold):
         #return w_salary_sum / sum_sim
 
     weighted_mean_salary = df_salary.groupby('Course Name').apply(weighted_salary).sort_values()
-    print("\nWeighted Mean Salary by Course:\n", weighted_mean_salary)
+    #print("\nWeighted Mean Salary by Course:\n", weighted_mean_salary)
 
 
-path = './SBERT_similarities/all_course_job_similarity.xlsx'
+path = './SBERT_similarities/all_course_job_similarity.csv'
 rank_courses(path, 0.70)
 
 
