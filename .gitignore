@@ -1,1 +1,19 @@
 SBERT_similarities/all_course_job_similarity.csv
+
+fetch_jobs/cleanedjobs/*
+!fetch_jobs/cleanedjobs/cleaned_all_swe_jobs.xlsx
+
+# Ignore every raw job
+fetch_jobs/jobs/*
+
+# Include 1 job
+!fetch_jobs/jobs/swe_jobs_10_10.xlsx
+
+all_courses/*
+!all_courses/CIS_3950.pdf
+
+elective_courses/*
+!elective_courses/CAP_4612.pdf
+
+core_courses/*
+!core_courses/CGS_1920.pdf
